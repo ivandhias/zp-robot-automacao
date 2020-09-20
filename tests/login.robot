@@ -14,6 +14,7 @@ Resource        ..//resources/kws.robot
 # orientado a ela
 
 ***Test Cases***
+#Staps
 Login do Administrador
     Acesso a página Login
     Submeto minhas credenciais  admin@zepalheta.com.br  pwd123

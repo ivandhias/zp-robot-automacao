@@ -8,7 +8,7 @@ Library     SeleniumLibrary
 ***Keywords***
 Acesso a página Login
     Open Browser    http://zepalheta-web:3000/  chrome
-    Maximize Browser Window
+    #Maximize Browser Window
 
 Submeto minhas credenciais
     [Arguments]     ${email}     ${password}
@@ -24,5 +24,5 @@ Devo ver a área logada
 Devo ver um toaster com a mensagem
     [Arguments]     ${expect_message}
 
-    Wait Until Element Contains     ccs:div[type=error] p    ${expect_message}
+    Wait Until Element Contains     xpath://*[@id="root"]/div[2]/div/div/p    ${expect_message}
     Close Browser    
