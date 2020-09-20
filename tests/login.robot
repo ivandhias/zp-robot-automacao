@@ -22,9 +22,27 @@ Login do Administrador
 
  #Cenário com fluxo alternativo
 Senha incorreta
-    [tags]      inv_pass
+    [tags]      inv_login
     Acesso a página Login
     Submeto minhas credenciais  admin@zepalheta.com.br  abc123
     Devo ver um toaster com a mensagem  Ocorreu um erro ao fazer login, cheque as credenciais.
+
+Senha em branco
+    [tags]      inv_login
+    Acesso a página Login
+    Submeto minhas credenciais  carlos@gmail.com  ${EMPTY}
+    Devo ver um toaster com a mensagem  O campo senha é obrigatório!
+
+Email em branco
+    [tags]      inv_login
+    Acesso a página Login
+    Submeto minhas credenciais    ${EMPTY}  123456
+    Devo ver um toaster com a mensagem  O campo email é obrigatório!
+
+Senha e Email em branco
+    [tags]      inv_login
+    Acesso a página Login
+    Submeto minhas credenciais    ${EMPTY}  ${EMPTY}  
+    Devo ver um toaster com a mensagem  Os campos email e senha não foram preenchidos!    
 
                   
