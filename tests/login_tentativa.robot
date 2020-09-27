@@ -3,10 +3,10 @@ Documentation   Login Tentativa
 
 Resource        ..//resources/base.robot
 
-#Executa uma ou mais Keywords antes da execução de todos os steps de cada caso de teste
-Test Setup          Start Session
-# Vai executar uma ou mais Keywords após a execução de todos os steps de cada caso de teste
-Test Teardown       Finish Session
+#Executa uma ou mais Keywordssomente uma vez os caso de teste
+Suite Setup     Start Session
+# Vai executar uma ou mais Keywords uma única vez antes de cada caso de teste
+Suite Teardown  Finish Session
 
 Test Template   Tentativa de login
  
