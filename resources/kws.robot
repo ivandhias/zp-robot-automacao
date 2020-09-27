@@ -7,7 +7,7 @@ Library     SeleniumLibrary
 
 ***Keywords***
 Acesso a página Login
-    Open Browser    http://zepalheta-web:3000/  chrome
+    Go To    http://zepalheta-web:3000
     #Maximize Browser Window
 
 Submeto minhas credenciais
@@ -19,10 +19,8 @@ Submeto minhas credenciais
 
 Devo ver a área logada
     Wait Until Page Contains      Aluguéis     5 
-    Close Browser 
 
 Devo ver um toaster com a mensagem
     [Arguments]     ${expect_message}
 
     Wait Until Element Contains     xpath://*[@id="root"]/div[2]/div/div/p    ${expect_message}
-    Close Browser    
