@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 3.2.2 (Python 3.8.5 on win32)" generated="20200927 12:43:27.406" rpa="false">
+<robot generator="Robot 3.2.2 (Python 3.8.5 on win32)" generated="20200927 12:59:04.951" rpa="false">
 <suite id="s1" name="Tests" source="C:\qaninja\ze-palheta\tests">
 <suite id="s1-s1" name="Login" source="C:\qaninja\ze-palheta\tests\login.robot">
 <test id="s1-s1-t1" name="Login do Administrador">
@@ -10,14 +10,14 @@
 <arg>about:blank</arg>
 <arg>chrome</arg>
 </arguments>
-<msg timestamp="20200927 12:43:27.642" level="INFO">Opening browser 'chrome' to base url 'about:blank'.</msg>
-<status status="PASS" starttime="20200927 12:43:27.642" endtime="20200927 12:43:30.941"></status>
+<msg timestamp="20200927 12:59:05.240" level="INFO">Opening browser 'chrome' to base url 'about:blank'.</msg>
+<status status="PASS" starttime="20200927 12:59:05.240" endtime="20200927 12:59:08.601"></status>
 </kw>
 <kw name="Maximize Browser Window" library="SeleniumLibrary">
 <doc>Maximizes current browser window.</doc>
-<status status="PASS" starttime="20200927 12:43:30.941" endtime="20200927 12:43:33.063"></status>
+<status status="PASS" starttime="20200927 12:59:08.602" endtime="20200927 12:59:10.721"></status>
 </kw>
-<status status="PASS" starttime="20200927 12:43:27.642" endtime="20200927 12:43:33.063"></status>
+<status status="PASS" starttime="20200927 12:59:05.240" endtime="20200927 12:59:10.721"></status>
 </kw>
 <kw name="Acesso a página Login" library="kws">
 <kw name="Go To" library="SeleniumLibrary">
@@ -25,10 +25,10 @@
 <arguments>
 <arg>http://zepalheta-web:3000</arg>
 </arguments>
-<msg timestamp="20200927 12:43:33.064" level="INFO">Opening url 'http://zepalheta-web:3000'</msg>
-<status status="PASS" starttime="20200927 12:43:33.064" endtime="20200927 12:43:34.251"></status>
+<msg timestamp="20200927 12:59:10.722" level="INFO">Opening url 'http://zepalheta-web:3000'</msg>
+<status status="PASS" starttime="20200927 12:59:10.722" endtime="20200927 12:59:11.960"></status>
 </kw>
-<status status="PASS" starttime="20200927 12:43:33.064" endtime="20200927 12:43:34.251"></status>
+<status status="PASS" starttime="20200927 12:59:10.722" endtime="20200927 12:59:11.960"></status>
 </kw>
 <kw name="Submeto minhas credenciais" library="kws">
 <arguments>
@@ -41,8 +41,8 @@
 <arg>id:txtEmail</arg>
 <arg>${email}</arg>
 </arguments>
-<msg timestamp="20200927 12:43:34.253" level="INFO">Typing text 'admin@zepalheta.com.br' into text field 'id:txtEmail'.</msg>
-<status status="PASS" starttime="20200927 12:43:34.253" endtime="20200927 12:43:34.359"></status>
+<msg timestamp="20200927 12:59:11.965" level="INFO">Typing text 'admin@zepalheta.com.br' into text field 'id:txtEmail'.</msg>
+<status status="PASS" starttime="20200927 12:59:11.963" endtime="20200927 12:59:12.066"></status>
 </kw>
 <kw name="Input Text" library="SeleniumLibrary">
 <doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
@@ -50,18 +50,18 @@
 <arg>css:input[placeholder=Senha]</arg>
 <arg>${password}</arg>
 </arguments>
-<msg timestamp="20200927 12:43:34.359" level="INFO">Typing text 'pwd123' into text field 'css:input[placeholder=Senha]'.</msg>
-<status status="PASS" starttime="20200927 12:43:34.359" endtime="20200927 12:43:34.445"></status>
+<msg timestamp="20200927 12:59:12.067" level="INFO">Typing text 'pwd123' into text field 'css:input[placeholder=Senha]'.</msg>
+<status status="PASS" starttime="20200927 12:59:12.066" endtime="20200927 12:59:12.156"></status>
 </kw>
 <kw name="Click Element" library="SeleniumLibrary">
 <doc>Click the element identified by ``locator``.</doc>
 <arguments>
 <arg>//button[text()='Entrar']</arg>
 </arguments>
-<msg timestamp="20200927 12:43:34.445" level="INFO">Clicking element '//button[text()='Entrar']'.</msg>
-<status status="PASS" starttime="20200927 12:43:34.445" endtime="20200927 12:43:34.501"></status>
+<msg timestamp="20200927 12:59:12.156" level="INFO">Clicking element '//button[text()='Entrar']'.</msg>
+<status status="PASS" starttime="20200927 12:59:12.156" endtime="20200927 12:59:12.210"></status>
 </kw>
-<status status="PASS" starttime="20200927 12:43:34.252" endtime="20200927 12:43:34.501"></status>
+<status status="PASS" starttime="20200927 12:59:11.961" endtime="20200927 12:59:12.210"></status>
 </kw>
 <kw name="Devo ver a área logada" library="kws">
 <kw name="Wait Until Page Contains" library="SeleniumLibrary">
@@ -70,21 +70,21 @@
 <arg>Aluguéis</arg>
 <arg>5</arg>
 </arguments>
-<status status="PASS" starttime="20200927 12:43:34.503" endtime="20200927 12:43:34.726"></status>
+<status status="PASS" starttime="20200927 12:59:12.211" endtime="20200927 12:59:12.434"></status>
 </kw>
-<status status="PASS" starttime="20200927 12:43:34.502" endtime="20200927 12:43:34.726"></status>
+<status status="PASS" starttime="20200927 12:59:12.211" endtime="20200927 12:59:12.435"></status>
 </kw>
 <kw name="Finish Session" library="hooks" type="teardown">
 <kw name="Close Browser" library="SeleniumLibrary">
 <doc>Closes the current browser.</doc>
-<status status="PASS" starttime="20200927 12:43:34.727" endtime="20200927 12:43:36.901"></status>
+<status status="PASS" starttime="20200927 12:59:12.436" endtime="20200927 12:59:14.612"></status>
 </kw>
-<status status="PASS" starttime="20200927 12:43:34.727" endtime="20200927 12:43:36.901"></status>
+<status status="PASS" starttime="20200927 12:59:12.436" endtime="20200927 12:59:14.612"></status>
 </kw>
-<status status="PASS" starttime="20200927 12:43:27.641" endtime="20200927 12:43:36.901" critical="yes"></status>
+<status status="PASS" starttime="20200927 12:59:05.239" endtime="20200927 12:59:14.613" critical="yes"></status>
 </test>
 <doc>Login</doc>
-<status status="PASS" starttime="20200927 12:43:27.435" endtime="20200927 12:43:36.903"></status>
+<status status="PASS" starttime="20200927 12:59:04.982" endtime="20200927 12:59:14.615"></status>
 </suite>
 <suite id="s1-s2" name="Login Tentativa" source="C:\qaninja\ze-palheta\tests\login_tentativa.robot">
 <test id="s1-s2-t1" name="Senha incorreta">
@@ -95,14 +95,14 @@
 <arg>about:blank</arg>
 <arg>chrome</arg>
 </arguments>
-<msg timestamp="20200927 12:43:36.921" level="INFO">Opening browser 'chrome' to base url 'about:blank'.</msg>
-<status status="PASS" starttime="20200927 12:43:36.920" endtime="20200927 12:43:40.187"></status>
+<msg timestamp="20200927 12:59:14.627" level="INFO">Opening browser 'chrome' to base url 'about:blank'.</msg>
+<status status="PASS" starttime="20200927 12:59:14.626" endtime="20200927 12:59:17.915"></status>
 </kw>
 <kw name="Maximize Browser Window" library="SeleniumLibrary">
 <doc>Maximizes current browser window.</doc>
-<status status="PASS" starttime="20200927 12:43:40.187" endtime="20200927 12:43:42.311"></status>
+<status status="PASS" starttime="20200927 12:59:17.915" endtime="20200927 12:59:20.039"></status>
 </kw>
-<status status="PASS" starttime="20200927 12:43:36.920" endtime="20200927 12:43:42.311"></status>
+<status status="PASS" starttime="20200927 12:59:14.626" endtime="20200927 12:59:20.039"></status>
 </kw>
 <kw name="Tentativa de login">
 <arguments>
@@ -116,10 +116,10 @@
 <arguments>
 <arg>http://zepalheta-web:3000</arg>
 </arguments>
-<msg timestamp="20200927 12:43:42.313" level="INFO">Opening url 'http://zepalheta-web:3000'</msg>
-<status status="PASS" starttime="20200927 12:43:42.313" endtime="20200927 12:43:43.075"></status>
+<msg timestamp="20200927 12:59:20.041" level="INFO">Opening url 'http://zepalheta-web:3000'</msg>
+<status status="PASS" starttime="20200927 12:59:20.041" endtime="20200927 12:59:20.856"></status>
 </kw>
-<status status="PASS" starttime="20200927 12:43:42.312" endtime="20200927 12:43:43.075"></status>
+<status status="PASS" starttime="20200927 12:59:20.041" endtime="20200927 12:59:20.856"></status>
 </kw>
 <kw name="Submeto minhas credenciais" library="kws">
 <arguments>
@@ -132,8 +132,8 @@
 <arg>id:txtEmail</arg>
 <arg>${email}</arg>
 </arguments>
-<msg timestamp="20200927 12:43:43.077" level="INFO">Typing text 'admin@zepalheta.com.br' into text field 'id:txtEmail'.</msg>
-<status status="PASS" starttime="20200927 12:43:43.077" endtime="20200927 12:43:43.499"></status>
+<msg timestamp="20200927 12:59:20.860" level="INFO">Typing text 'admin@zepalheta.com.br' into text field 'id:txtEmail'.</msg>
+<status status="PASS" starttime="20200927 12:59:20.859" endtime="20200927 12:59:21.391"></status>
 </kw>
 <kw name="Input Text" library="SeleniumLibrary">
 <doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
@@ -141,18 +141,18 @@
 <arg>css:input[placeholder=Senha]</arg>
 <arg>${password}</arg>
 </arguments>
-<msg timestamp="20200927 12:43:43.500" level="INFO">Typing text 'abc123' into text field 'css:input[placeholder=Senha]'.</msg>
-<status status="PASS" starttime="20200927 12:43:43.499" endtime="20200927 12:43:43.587"></status>
+<msg timestamp="20200927 12:59:21.393" level="INFO">Typing text 'abc123' into text field 'css:input[placeholder=Senha]'.</msg>
+<status status="PASS" starttime="20200927 12:59:21.392" endtime="20200927 12:59:21.478"></status>
 </kw>
 <kw name="Click Element" library="SeleniumLibrary">
 <doc>Click the element identified by ``locator``.</doc>
 <arguments>
 <arg>//button[text()='Entrar']</arg>
 </arguments>
-<msg timestamp="20200927 12:43:43.587" level="INFO">Clicking element '//button[text()='Entrar']'.</msg>
-<status status="PASS" starttime="20200927 12:43:43.587" endtime="20200927 12:43:43.639"></status>
+<msg timestamp="20200927 12:59:21.479" level="INFO">Clicking element '//button[text()='Entrar']'.</msg>
+<status status="PASS" starttime="20200927 12:59:21.479" endtime="20200927 12:59:21.532"></status>
 </kw>
-<status status="PASS" starttime="20200927 12:43:43.076" endtime="20200927 12:43:43.639"></status>
+<status status="PASS" starttime="20200927 12:59:20.857" endtime="20200927 12:59:21.533"></status>
 </kw>
 <kw name="Devo ver um toaster com a mensagem" library="kws">
 <arguments>
@@ -164,20 +164,20 @@
 <arg>xpath://*[@id="root"]/div[2]/div/div/p</arg>
 <arg>${expect_message}</arg>
 </arguments>
-<status status="PASS" starttime="20200927 12:43:43.639" endtime="20200927 12:43:44.085"></status>
+<status status="PASS" starttime="20200927 12:59:21.533" endtime="20200927 12:59:21.768"></status>
 </kw>
-<status status="PASS" starttime="20200927 12:43:43.639" endtime="20200927 12:43:44.085"></status>
+<status status="PASS" starttime="20200927 12:59:21.533" endtime="20200927 12:59:21.768"></status>
 </kw>
-<status status="PASS" starttime="20200927 12:43:42.312" endtime="20200927 12:43:44.086"></status>
+<status status="PASS" starttime="20200927 12:59:20.040" endtime="20200927 12:59:21.768"></status>
 </kw>
 <kw name="Finish Session" library="hooks" type="teardown">
 <kw name="Close Browser" library="SeleniumLibrary">
 <doc>Closes the current browser.</doc>
-<status status="PASS" starttime="20200927 12:43:44.087" endtime="20200927 12:43:46.256"></status>
+<status status="PASS" starttime="20200927 12:59:21.769" endtime="20200927 12:59:23.925"></status>
 </kw>
-<status status="PASS" starttime="20200927 12:43:44.087" endtime="20200927 12:43:46.256"></status>
+<status status="PASS" starttime="20200927 12:59:21.769" endtime="20200927 12:59:23.925"></status>
 </kw>
-<status status="PASS" starttime="20200927 12:43:36.919" endtime="20200927 12:43:46.257" critical="yes"></status>
+<status status="PASS" starttime="20200927 12:59:14.625" endtime="20200927 12:59:23.926" critical="yes"></status>
 </test>
 <test id="s1-s2-t2" name="Senha em branco">
 <kw name="Start Session" library="hooks" type="setup">
@@ -187,14 +187,14 @@
 <arg>about:blank</arg>
 <arg>chrome</arg>
 </arguments>
-<msg timestamp="20200927 12:43:46.263" level="INFO">Opening browser 'chrome' to base url 'about:blank'.</msg>
-<status status="PASS" starttime="20200927 12:43:46.263" endtime="20200927 12:43:49.536"></status>
+<msg timestamp="20200927 12:59:23.933" level="INFO">Opening browser 'chrome' to base url 'about:blank'.</msg>
+<status status="PASS" starttime="20200927 12:59:23.933" endtime="20200927 12:59:27.175"></status>
 </kw>
 <kw name="Maximize Browser Window" library="SeleniumLibrary">
 <doc>Maximizes current browser window.</doc>
-<status status="PASS" starttime="20200927 12:43:49.536" endtime="20200927 12:43:51.658"></status>
+<status status="PASS" starttime="20200927 12:59:27.175" endtime="20200927 12:59:29.296"></status>
 </kw>
-<status status="PASS" starttime="20200927 12:43:46.262" endtime="20200927 12:43:51.658"></status>
+<status status="PASS" starttime="20200927 12:59:23.932" endtime="20200927 12:59:29.296"></status>
 </kw>
 <kw name="Tentativa de login">
 <arguments>
@@ -208,10 +208,10 @@
 <arguments>
 <arg>http://zepalheta-web:3000</arg>
 </arguments>
-<msg timestamp="20200927 12:43:51.660" level="INFO">Opening url 'http://zepalheta-web:3000'</msg>
-<status status="PASS" starttime="20200927 12:43:51.660" endtime="20200927 12:43:52.409"></status>
+<msg timestamp="20200927 12:59:29.297" level="INFO">Opening url 'http://zepalheta-web:3000'</msg>
+<status status="PASS" starttime="20200927 12:59:29.297" endtime="20200927 12:59:30.058"></status>
 </kw>
-<status status="PASS" starttime="20200927 12:43:51.659" endtime="20200927 12:43:52.410"></status>
+<status status="PASS" starttime="20200927 12:59:29.297" endtime="20200927 12:59:30.059"></status>
 </kw>
 <kw name="Submeto minhas credenciais" library="kws">
 <arguments>
@@ -224,8 +224,8 @@
 <arg>id:txtEmail</arg>
 <arg>${email}</arg>
 </arguments>
-<msg timestamp="20200927 12:43:52.411" level="INFO">Typing text 'carlos@gmail.com' into text field 'id:txtEmail'.</msg>
-<status status="PASS" starttime="20200927 12:43:52.411" endtime="20200927 12:43:52.848"></status>
+<msg timestamp="20200927 12:59:30.062" level="INFO">Typing text 'carlos@gmail.com' into text field 'id:txtEmail'.</msg>
+<status status="PASS" starttime="20200927 12:59:30.062" endtime="20200927 12:59:30.478"></status>
 </kw>
 <kw name="Input Text" library="SeleniumLibrary">
 <doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
@@ -233,18 +233,18 @@
 <arg>css:input[placeholder=Senha]</arg>
 <arg>${password}</arg>
 </arguments>
-<msg timestamp="20200927 12:43:52.849" level="INFO">Typing text '' into text field 'css:input[placeholder=Senha]'.</msg>
-<status status="PASS" starttime="20200927 12:43:52.848" endtime="20200927 12:43:52.928"></status>
+<msg timestamp="20200927 12:59:30.479" level="INFO">Typing text '' into text field 'css:input[placeholder=Senha]'.</msg>
+<status status="PASS" starttime="20200927 12:59:30.478" endtime="20200927 12:59:30.555"></status>
 </kw>
 <kw name="Click Element" library="SeleniumLibrary">
 <doc>Click the element identified by ``locator``.</doc>
 <arguments>
 <arg>//button[text()='Entrar']</arg>
 </arguments>
-<msg timestamp="20200927 12:43:52.928" level="INFO">Clicking element '//button[text()='Entrar']'.</msg>
-<status status="PASS" starttime="20200927 12:43:52.928" endtime="20200927 12:43:52.990"></status>
+<msg timestamp="20200927 12:59:30.556" level="INFO">Clicking element '//button[text()='Entrar']'.</msg>
+<status status="PASS" starttime="20200927 12:59:30.556" endtime="20200927 12:59:30.613"></status>
 </kw>
-<status status="PASS" starttime="20200927 12:43:52.410" endtime="20200927 12:43:52.990"></status>
+<status status="PASS" starttime="20200927 12:59:30.060" endtime="20200927 12:59:30.613"></status>
 </kw>
 <kw name="Devo ver um toaster com a mensagem" library="kws">
 <arguments>
@@ -256,20 +256,20 @@
 <arg>xpath://*[@id="root"]/div[2]/div/div/p</arg>
 <arg>${expect_message}</arg>
 </arguments>
-<status status="PASS" starttime="20200927 12:43:52.990" endtime="20200927 12:43:53.228"></status>
+<status status="PASS" starttime="20200927 12:59:30.614" endtime="20200927 12:59:30.850"></status>
 </kw>
-<status status="PASS" starttime="20200927 12:43:52.990" endtime="20200927 12:43:53.228"></status>
+<status status="PASS" starttime="20200927 12:59:30.613" endtime="20200927 12:59:30.851"></status>
 </kw>
-<status status="PASS" starttime="20200927 12:43:51.659" endtime="20200927 12:43:53.228"></status>
+<status status="PASS" starttime="20200927 12:59:29.297" endtime="20200927 12:59:30.851"></status>
 </kw>
 <kw name="Finish Session" library="hooks" type="teardown">
 <kw name="Close Browser" library="SeleniumLibrary">
 <doc>Closes the current browser.</doc>
-<status status="PASS" starttime="20200927 12:43:53.229" endtime="20200927 12:43:55.397"></status>
+<status status="PASS" starttime="20200927 12:59:30.852" endtime="20200927 12:59:33.008"></status>
 </kw>
-<status status="PASS" starttime="20200927 12:43:53.229" endtime="20200927 12:43:55.397"></status>
+<status status="PASS" starttime="20200927 12:59:30.852" endtime="20200927 12:59:33.009"></status>
 </kw>
-<status status="PASS" starttime="20200927 12:43:46.262" endtime="20200927 12:43:55.398" critical="yes"></status>
+<status status="PASS" starttime="20200927 12:59:23.932" endtime="20200927 12:59:33.009" critical="yes"></status>
 </test>
 <test id="s1-s2-t3" name="Email em branco">
 <kw name="Start Session" library="hooks" type="setup">
@@ -279,14 +279,14 @@
 <arg>about:blank</arg>
 <arg>chrome</arg>
 </arguments>
-<msg timestamp="20200927 12:43:55.405" level="INFO">Opening browser 'chrome' to base url 'about:blank'.</msg>
-<status status="PASS" starttime="20200927 12:43:55.405" endtime="20200927 12:43:58.668"></status>
+<msg timestamp="20200927 12:59:33.014" level="INFO">Opening browser 'chrome' to base url 'about:blank'.</msg>
+<status status="PASS" starttime="20200927 12:59:33.014" endtime="20200927 12:59:36.293"></status>
 </kw>
 <kw name="Maximize Browser Window" library="SeleniumLibrary">
 <doc>Maximizes current browser window.</doc>
-<status status="PASS" starttime="20200927 12:43:58.668" endtime="20200927 12:44:00.818"></status>
+<status status="PASS" starttime="20200927 12:59:36.293" endtime="20200927 12:59:38.413"></status>
 </kw>
-<status status="PASS" starttime="20200927 12:43:55.405" endtime="20200927 12:44:00.819"></status>
+<status status="PASS" starttime="20200927 12:59:33.014" endtime="20200927 12:59:38.413"></status>
 </kw>
 <kw name="Tentativa de login">
 <arguments>
@@ -300,10 +300,10 @@
 <arguments>
 <arg>http://zepalheta-web:3000</arg>
 </arguments>
-<msg timestamp="20200927 12:44:00.821" level="INFO">Opening url 'http://zepalheta-web:3000'</msg>
-<status status="PASS" starttime="20200927 12:44:00.820" endtime="20200927 12:44:02.016"></status>
+<msg timestamp="20200927 12:59:38.416" level="INFO">Opening url 'http://zepalheta-web:3000'</msg>
+<status status="PASS" starttime="20200927 12:59:38.415" endtime="20200927 12:59:39.172"></status>
 </kw>
-<status status="PASS" starttime="20200927 12:44:00.820" endtime="20200927 12:44:02.017"></status>
+<status status="PASS" starttime="20200927 12:59:38.414" endtime="20200927 12:59:39.172"></status>
 </kw>
 <kw name="Submeto minhas credenciais" library="kws">
 <arguments>
@@ -316,8 +316,8 @@
 <arg>id:txtEmail</arg>
 <arg>${email}</arg>
 </arguments>
-<msg timestamp="20200927 12:44:02.018" level="INFO">Typing text '' into text field 'id:txtEmail'.</msg>
-<status status="PASS" starttime="20200927 12:44:02.017" endtime="20200927 12:44:02.086"></status>
+<msg timestamp="20200927 12:59:39.174" level="INFO">Typing text '' into text field 'id:txtEmail'.</msg>
+<status status="PASS" starttime="20200927 12:59:39.173" endtime="20200927 12:59:39.247"></status>
 </kw>
 <kw name="Input Text" library="SeleniumLibrary">
 <doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
@@ -325,18 +325,18 @@
 <arg>css:input[placeholder=Senha]</arg>
 <arg>${password}</arg>
 </arguments>
-<msg timestamp="20200927 12:44:02.086" level="INFO">Typing text '123456' into text field 'css:input[placeholder=Senha]'.</msg>
-<status status="PASS" starttime="20200927 12:44:02.086" endtime="20200927 12:44:02.172"></status>
+<msg timestamp="20200927 12:59:39.247" level="INFO">Typing text '123456' into text field 'css:input[placeholder=Senha]'.</msg>
+<status status="PASS" starttime="20200927 12:59:39.247" endtime="20200927 12:59:39.599"></status>
 </kw>
 <kw name="Click Element" library="SeleniumLibrary">
 <doc>Click the element identified by ``locator``.</doc>
 <arguments>
 <arg>//button[text()='Entrar']</arg>
 </arguments>
-<msg timestamp="20200927 12:44:02.174" level="INFO">Clicking element '//button[text()='Entrar']'.</msg>
-<status status="PASS" starttime="20200927 12:44:02.172" endtime="20200927 12:44:02.241"></status>
+<msg timestamp="20200927 12:59:39.601" level="INFO">Clicking element '//button[text()='Entrar']'.</msg>
+<status status="PASS" starttime="20200927 12:59:39.599" endtime="20200927 12:59:39.661"></status>
 </kw>
-<status status="PASS" starttime="20200927 12:44:02.017" endtime="20200927 12:44:02.241"></status>
+<status status="PASS" starttime="20200927 12:59:39.172" endtime="20200927 12:59:39.661"></status>
 </kw>
 <kw name="Devo ver um toaster com a mensagem" library="kws">
 <arguments>
@@ -348,20 +348,20 @@
 <arg>xpath://*[@id="root"]/div[2]/div/div/p</arg>
 <arg>${expect_message}</arg>
 </arguments>
-<status status="PASS" starttime="20200927 12:44:02.242" endtime="20200927 12:44:02.482"></status>
+<status status="PASS" starttime="20200927 12:59:39.663" endtime="20200927 12:59:39.904"></status>
 </kw>
-<status status="PASS" starttime="20200927 12:44:02.241" endtime="20200927 12:44:02.482"></status>
+<status status="PASS" starttime="20200927 12:59:39.662" endtime="20200927 12:59:39.905"></status>
 </kw>
-<status status="PASS" starttime="20200927 12:44:00.820" endtime="20200927 12:44:02.482"></status>
+<status status="PASS" starttime="20200927 12:59:38.414" endtime="20200927 12:59:39.905"></status>
 </kw>
 <kw name="Finish Session" library="hooks" type="teardown">
 <kw name="Close Browser" library="SeleniumLibrary">
 <doc>Closes the current browser.</doc>
-<status status="PASS" starttime="20200927 12:44:02.483" endtime="20200927 12:44:04.653"></status>
+<status status="PASS" starttime="20200927 12:59:39.906" endtime="20200927 12:59:42.056"></status>
 </kw>
-<status status="PASS" starttime="20200927 12:44:02.483" endtime="20200927 12:44:04.653"></status>
+<status status="PASS" starttime="20200927 12:59:39.906" endtime="20200927 12:59:42.056"></status>
 </kw>
-<status status="PASS" starttime="20200927 12:43:55.403" endtime="20200927 12:44:04.654" critical="yes"></status>
+<status status="PASS" starttime="20200927 12:59:33.013" endtime="20200927 12:59:42.056" critical="yes"></status>
 </test>
 <test id="s1-s2-t4" name="Senha e Email em branco">
 <kw name="Start Session" library="hooks" type="setup">
@@ -371,14 +371,14 @@
 <arg>about:blank</arg>
 <arg>chrome</arg>
 </arguments>
-<msg timestamp="20200927 12:44:04.661" level="INFO">Opening browser 'chrome' to base url 'about:blank'.</msg>
-<status status="PASS" starttime="20200927 12:44:04.661" endtime="20200927 12:44:07.934"></status>
+<msg timestamp="20200927 12:59:42.064" level="INFO">Opening browser 'chrome' to base url 'about:blank'.</msg>
+<status status="PASS" starttime="20200927 12:59:42.063" endtime="20200927 12:59:45.337"></status>
 </kw>
 <kw name="Maximize Browser Window" library="SeleniumLibrary">
 <doc>Maximizes current browser window.</doc>
-<status status="PASS" starttime="20200927 12:44:07.935" endtime="20200927 12:44:10.055"></status>
+<status status="PASS" starttime="20200927 12:59:45.337" endtime="20200927 12:59:47.457"></status>
 </kw>
-<status status="PASS" starttime="20200927 12:44:04.660" endtime="20200927 12:44:10.055"></status>
+<status status="PASS" starttime="20200927 12:59:42.063" endtime="20200927 12:59:47.457"></status>
 </kw>
 <kw name="Tentativa de login">
 <arguments>
@@ -392,10 +392,10 @@
 <arguments>
 <arg>http://zepalheta-web:3000</arg>
 </arguments>
-<msg timestamp="20200927 12:44:10.059" level="INFO">Opening url 'http://zepalheta-web:3000'</msg>
-<status status="PASS" starttime="20200927 12:44:10.059" endtime="20200927 12:44:10.813"></status>
+<msg timestamp="20200927 12:59:47.459" level="INFO">Opening url 'http://zepalheta-web:3000'</msg>
+<status status="PASS" starttime="20200927 12:59:47.459" endtime="20200927 12:59:48.207"></status>
 </kw>
-<status status="PASS" starttime="20200927 12:44:10.057" endtime="20200927 12:44:10.814"></status>
+<status status="PASS" starttime="20200927 12:59:47.458" endtime="20200927 12:59:48.208"></status>
 </kw>
 <kw name="Submeto minhas credenciais" library="kws">
 <arguments>
@@ -408,8 +408,8 @@
 <arg>id:txtEmail</arg>
 <arg>${email}</arg>
 </arguments>
-<msg timestamp="20200927 12:44:10.816" level="INFO">Typing text '' into text field 'id:txtEmail'.</msg>
-<status status="PASS" starttime="20200927 12:44:10.816" endtime="20200927 12:44:10.892"></status>
+<msg timestamp="20200927 12:59:48.209" level="INFO">Typing text '' into text field 'id:txtEmail'.</msg>
+<status status="PASS" starttime="20200927 12:59:48.208" endtime="20200927 12:59:48.286"></status>
 </kw>
 <kw name="Input Text" library="SeleniumLibrary">
 <doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
@@ -417,18 +417,18 @@
 <arg>css:input[placeholder=Senha]</arg>
 <arg>${password}</arg>
 </arguments>
-<msg timestamp="20200927 12:44:10.892" level="INFO">Typing text '' into text field 'css:input[placeholder=Senha]'.</msg>
-<status status="PASS" starttime="20200927 12:44:10.892" endtime="20200927 12:44:11.237"></status>
+<msg timestamp="20200927 12:59:48.287" level="INFO">Typing text '' into text field 'css:input[placeholder=Senha]'.</msg>
+<status status="PASS" starttime="20200927 12:59:48.286" endtime="20200927 12:59:48.656"></status>
 </kw>
 <kw name="Click Element" library="SeleniumLibrary">
 <doc>Click the element identified by ``locator``.</doc>
 <arguments>
 <arg>//button[text()='Entrar']</arg>
 </arguments>
-<msg timestamp="20200927 12:44:11.238" level="INFO">Clicking element '//button[text()='Entrar']'.</msg>
-<status status="PASS" starttime="20200927 12:44:11.237" endtime="20200927 12:44:11.300"></status>
+<msg timestamp="20200927 12:59:48.657" level="INFO">Clicking element '//button[text()='Entrar']'.</msg>
+<status status="PASS" starttime="20200927 12:59:48.657" endtime="20200927 12:59:48.726"></status>
 </kw>
-<status status="PASS" starttime="20200927 12:44:10.814" endtime="20200927 12:44:11.300"></status>
+<status status="PASS" starttime="20200927 12:59:48.208" endtime="20200927 12:59:48.726"></status>
 </kw>
 <kw name="Devo ver um toaster com a mensagem" library="kws">
 <arguments>
@@ -440,20 +440,20 @@
 <arg>xpath://*[@id="root"]/div[2]/div/div/p</arg>
 <arg>${expect_message}</arg>
 </arguments>
-<status status="PASS" starttime="20200927 12:44:11.301" endtime="20200927 12:44:11.542"></status>
+<status status="PASS" starttime="20200927 12:59:48.728" endtime="20200927 12:59:48.967"></status>
 </kw>
-<status status="PASS" starttime="20200927 12:44:11.301" endtime="20200927 12:44:11.542"></status>
+<status status="PASS" starttime="20200927 12:59:48.726" endtime="20200927 12:59:48.967"></status>
 </kw>
-<status status="PASS" starttime="20200927 12:44:10.057" endtime="20200927 12:44:11.542"></status>
+<status status="PASS" starttime="20200927 12:59:47.458" endtime="20200927 12:59:48.967"></status>
 </kw>
 <kw name="Finish Session" library="hooks" type="teardown">
 <kw name="Close Browser" library="SeleniumLibrary">
 <doc>Closes the current browser.</doc>
-<status status="PASS" starttime="20200927 12:44:11.544" endtime="20200927 12:44:13.715"></status>
+<status status="PASS" starttime="20200927 12:59:48.967" endtime="20200927 12:59:51.112"></status>
 </kw>
-<status status="PASS" starttime="20200927 12:44:11.543" endtime="20200927 12:44:13.716"></status>
+<status status="PASS" starttime="20200927 12:59:48.967" endtime="20200927 12:59:51.112"></status>
 </kw>
-<status status="PASS" starttime="20200927 12:44:04.659" endtime="20200927 12:44:13.716" critical="yes"></status>
+<status status="PASS" starttime="20200927 12:59:42.062" endtime="20200927 12:59:51.113" critical="yes"></status>
 </test>
 <test id="s1-s2-t5" name="Login incorreto">
 <kw name="Start Session" library="hooks" type="setup">
@@ -463,14 +463,14 @@
 <arg>about:blank</arg>
 <arg>chrome</arg>
 </arguments>
-<msg timestamp="20200927 12:44:13.722" level="INFO">Opening browser 'chrome' to base url 'about:blank'.</msg>
-<status status="PASS" starttime="20200927 12:44:13.722" endtime="20200927 12:44:17.016"></status>
+<msg timestamp="20200927 12:59:51.119" level="INFO">Opening browser 'chrome' to base url 'about:blank'.</msg>
+<status status="PASS" starttime="20200927 12:59:51.119" endtime="20200927 12:59:54.343"></status>
 </kw>
 <kw name="Maximize Browser Window" library="SeleniumLibrary">
 <doc>Maximizes current browser window.</doc>
-<status status="PASS" starttime="20200927 12:44:17.016" endtime="20200927 12:44:19.134"></status>
+<status status="PASS" starttime="20200927 12:59:54.343" endtime="20200927 12:59:56.463"></status>
 </kw>
-<status status="PASS" starttime="20200927 12:44:13.721" endtime="20200927 12:44:19.134"></status>
+<status status="PASS" starttime="20200927 12:59:51.118" endtime="20200927 12:59:56.463"></status>
 </kw>
 <kw name="Tentativa de login">
 <arguments>
@@ -484,10 +484,10 @@
 <arguments>
 <arg>http://zepalheta-web:3000</arg>
 </arguments>
-<msg timestamp="20200927 12:44:19.139" level="INFO">Opening url 'http://zepalheta-web:3000'</msg>
-<status status="PASS" starttime="20200927 12:44:19.138" endtime="20200927 12:44:19.929"></status>
+<msg timestamp="20200927 12:59:56.465" level="INFO">Opening url 'http://zepalheta-web:3000'</msg>
+<status status="PASS" starttime="20200927 12:59:56.464" endtime="20200927 12:59:57.617"></status>
 </kw>
-<status status="PASS" starttime="20200927 12:44:19.137" endtime="20200927 12:44:19.929"></status>
+<status status="PASS" starttime="20200927 12:59:56.464" endtime="20200927 12:59:57.617"></status>
 </kw>
 <kw name="Submeto minhas credenciais" library="kws">
 <arguments>
@@ -500,8 +500,8 @@
 <arg>id:txtEmail</arg>
 <arg>${email}</arg>
 </arguments>
-<msg timestamp="20200927 12:44:19.931" level="INFO">Typing text 'admin&amp;gmail.com' into text field 'id:txtEmail'.</msg>
-<status status="PASS" starttime="20200927 12:44:19.930" endtime="20200927 12:44:20.408"></status>
+<msg timestamp="20200927 12:59:57.619" level="INFO">Typing text 'admin&amp;gmail.com' into text field 'id:txtEmail'.</msg>
+<status status="PASS" starttime="20200927 12:59:57.618" endtime="20200927 12:59:57.706"></status>
 </kw>
 <kw name="Input Text" library="SeleniumLibrary">
 <doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
@@ -509,18 +509,18 @@
 <arg>css:input[placeholder=Senha]</arg>
 <arg>${password}</arg>
 </arguments>
-<msg timestamp="20200927 12:44:20.409" level="INFO">Typing text 'bcd123' into text field 'css:input[placeholder=Senha]'.</msg>
-<status status="PASS" starttime="20200927 12:44:20.408" endtime="20200927 12:44:20.496"></status>
+<msg timestamp="20200927 12:59:57.706" level="INFO">Typing text 'bcd123' into text field 'css:input[placeholder=Senha]'.</msg>
+<status status="PASS" starttime="20200927 12:59:57.706" endtime="20200927 12:59:57.790"></status>
 </kw>
 <kw name="Click Element" library="SeleniumLibrary">
 <doc>Click the element identified by ``locator``.</doc>
 <arguments>
 <arg>//button[text()='Entrar']</arg>
 </arguments>
-<msg timestamp="20200927 12:44:20.497" level="INFO">Clicking element '//button[text()='Entrar']'.</msg>
-<status status="PASS" starttime="20200927 12:44:20.496" endtime="20200927 12:44:20.549"></status>
+<msg timestamp="20200927 12:59:57.791" level="INFO">Clicking element '//button[text()='Entrar']'.</msg>
+<status status="PASS" starttime="20200927 12:59:57.790" endtime="20200927 12:59:57.838"></status>
 </kw>
-<status status="PASS" starttime="20200927 12:44:19.930" endtime="20200927 12:44:20.549"></status>
+<status status="PASS" starttime="20200927 12:59:57.617" endtime="20200927 12:59:57.838"></status>
 </kw>
 <kw name="Devo ver um toaster com a mensagem" library="kws">
 <arguments>
@@ -532,25 +532,25 @@
 <arg>xpath://*[@id="root"]/div[2]/div/div/p</arg>
 <arg>${expect_message}</arg>
 </arguments>
-<status status="PASS" starttime="20200927 12:44:20.550" endtime="20200927 12:44:20.797"></status>
+<status status="PASS" starttime="20200927 12:59:57.839" endtime="20200927 12:59:58.100"></status>
 </kw>
-<status status="PASS" starttime="20200927 12:44:20.549" endtime="20200927 12:44:20.797"></status>
+<status status="PASS" starttime="20200927 12:59:57.839" endtime="20200927 12:59:58.100"></status>
 </kw>
-<status status="PASS" starttime="20200927 12:44:19.136" endtime="20200927 12:44:20.797"></status>
+<status status="PASS" starttime="20200927 12:59:56.464" endtime="20200927 12:59:58.101"></status>
 </kw>
 <kw name="Finish Session" library="hooks" type="teardown">
 <kw name="Close Browser" library="SeleniumLibrary">
 <doc>Closes the current browser.</doc>
-<status status="PASS" starttime="20200927 12:44:20.798" endtime="20200927 12:44:22.965"></status>
+<status status="PASS" starttime="20200927 12:59:58.102" endtime="20200927 13:00:00.255"></status>
 </kw>
-<status status="PASS" starttime="20200927 12:44:20.798" endtime="20200927 12:44:22.965"></status>
+<status status="PASS" starttime="20200927 12:59:58.101" endtime="20200927 13:00:00.255"></status>
 </kw>
-<status status="PASS" starttime="20200927 12:44:13.721" endtime="20200927 12:44:22.965" critical="yes"></status>
+<status status="PASS" starttime="20200927 12:59:51.117" endtime="20200927 13:00:00.255" critical="yes"></status>
 </test>
 <doc>Login Tentativa</doc>
-<status status="PASS" starttime="20200927 12:43:36.907" endtime="20200927 12:44:22.971"></status>
+<status status="PASS" starttime="20200927 12:59:14.619" endtime="20200927 13:00:00.262"></status>
 </suite>
-<status status="PASS" starttime="20200927 12:43:27.408" endtime="20200927 12:44:22.979"></status>
+<status status="PASS" starttime="20200927 12:59:04.954" endtime="20200927 13:00:00.268"></status>
 </suite>
 <statistics>
 <total>

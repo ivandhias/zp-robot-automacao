@@ -1,8 +1,7 @@
 ***Settings***
 Documentation   Login
 
-Resource        ..//resources/kws.robot
-Resource        ..//resources/hooks.robot
+Resource        ..//resources/base.robot
 
 
 #Executa uma ou mais Keywords antes da execução de todos os steps de cada caso de teste

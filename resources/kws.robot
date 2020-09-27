@@ -1,9 +1,3 @@
-***Settings***
-
-Library     SeleniumLibrary
-
-
-
 
 ***Keywords***
 Acesso a página Login
